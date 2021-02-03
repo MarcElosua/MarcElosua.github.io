@@ -1,5 +1,5 @@
 ---
-title: "SPOTlight Lymph Node"
+title: "SPOTlight vignette"
 author: "Marc Elosua Bayes"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 output:
