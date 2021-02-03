@@ -182,8 +182,8 @@ colnames(basis_spotlight) <- unique(stringr::str_wrap(nmf_mod[[2]], width = 30))
 
 basis_spotlight %>%
   dplyr::arrange(desc(Astro)) %>%
-  DT::datatable(round(., 5),
-              filter = "top")
+  round(., 5) %>% 
+  DT::datatable(., filter = "top")
 ```
 
 ## Visualization
